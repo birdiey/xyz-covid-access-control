@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Welcome</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>COVID-19 RULES for one to access the premises</h1>
+   
+        
+        <p>
+            In Order To access the premises You need to:
+        </p>
+        <form action="CovidAppServlet.do" METHOD="POST">
+            <table>
+                <ol>
+                    
+                    <li> Wear a mask.</li>
+                    <li>Be willing to sanitize</li>
+                    <li>have a temperature less than 38 degrees Celsius</li>
+                </ol>
+                
+                <tr>
+                    
+                    <td>Do you have a mask on?</td>
+                       <td> <input type ="text" name="wearingMask"></td>
+                    
+                </tr>
+                
+                <tr>
+                    <td>Are you sanitized?</td>
+                    <td> <input type ="text" name="sanitizing"></td>
+                </tr>
+                
+                <tr>
+                    <td>Enter your temperature,It should be less than 38</td>
+                    <td> <input type ="text" name="temp"></td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <input type="submit" value="send">
+                    </td>
+                </tr>
+                
+            </table>
+            
+            
+        </form>
+    
+    </body>
+</html>
